@@ -1,0 +1,55 @@
+<!--task3 html-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Positioning Elements</title>
+  <link rel="stylesheet" href="task3.css">
+</head>
+<body>
+  <div class="container">
+    <img src="path/to/your/image.jpg" alt="Image">
+    <p class="bottom-left">This is the first paragraph.</p>
+    <p class="centered">This is the second paragraph.</p>
+  </div>
+</body>
+</html>
+
+/*task3 css*/
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    position: relative;
+    width: 600px; /* Replace with your desired width */
+    height: 400px; /* Replace with your desired height */
+    border: 1px solid #ccc; /* Optional: Just for visual reference */
+    margin: 50px auto; /* Optional: Center the container */
+    padding: 10px; /* Add some padding to create space for positioning */
+  }
+  
+  img {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    
+  }
+  
+  p.bottom-left {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    margin: 0;
+  }
+  
+  p.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+  }
+  
