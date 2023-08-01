@@ -1,0 +1,41 @@
+<!-- task 4 html file-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fixed Navigation Bar</title>
+  <link rel="stylesheet" href="task4.css">
+</head>
+<body>
+  <nav class="navbar">
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Your page content goes here -->
+  <section id="home">
+    <h1>Welcome to our website!</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem nulla modi laboriosam sunt voluptates laborum distinctio sint assumenda exercitationem, quos dolores! Sit, eius autem accusamus provident quod esse id itaque enim tempora consequuntur architecto, asperiores consectetur unde nulla rem quasi tempore nam molestias in, voluptas voluptates eum consequatur! Dignissimos repellendus ratione dicta exercitationem dolore velit architecto doloribus officia at quas voluptate reprehenderit similique ipsam consectetur rerum deleniti eligendi odio rem soluta voluptatibus, praesentium nisi commodi eum deserunt. Veritatis vero, voluptatibus, iusto delectus quisquam, voluptates praesentium laudantium quidem expedita explicabo recusandae distinctio impedit dignissimos eum earum nulla quasi fuga hic dolores non voluptate a nostrum! Sapiente, labore. Impedit qui cupiditate voluptas excepturi sunt facilis. Atque veritatis eius inventore officia provident fuga sunt quam labore ipsa aspernatur voluptatibus veniam rerum quos accusamus voluptatum possimus earum et vero qui ea nesciunt nemo, sequi placeat architecto! In, vitae alias. Animi magni repellat mollitia minima. Excepturi debitis quam obcaecati ullam fuga aliquid similique veritatis unde, eos cum libero laborum dignissimos eligendi ducimus! Corrupti facere eligendi pariatur unde magni maxime ut, sit animi, dolorum laborum sunt placeat, voluptates autem quam non nihil accusamus alias praesentium quae rerum suscipit delectus quis? Magnam suscipit dolorem accusamus ratione magni fugit eius perspiciatis veritatis! Obcaecati mollitia accusamus odit corrupti perferendis dignissimos facilis deserunt tenetur inventore voluptatibus, laudantium harum iusto a ducimus natus porro placeat voluptates, similique illo maiores fugiat aperiam aspernatur. Aliquid deleniti expedita ipsum neque animi. Voluptas necessitatibus reiciendis obcaecati exercitationem quaerat quisquam nostrum temporibus. Autem fuga tempora eveniet, dolor, corrupti similique doloribus id odit vero vitae natus aspernatur non cum voluptatum neque perferendis doloremque. Reiciendis, error sequi. Excepturi molestiae quam, provident reiciendis non rerum sit inventore in sunt aut facere. Doloribus obcaecati excepturi cumque eum quas! Odit id praesentium molestiae, minus ullam nesciunt fugiat sequi in non, qui harum delectus est nisi impedit aperiam autem laborum fuga, dignissimos molestias ad! Nisi voluptas, assumenda maiores natus rerum nam minima earum adipisci suscipit, consequuntur fugiat id fuga nihil mollitia temporibus. Sit dolorem atque minima enim recusandae veniam eum officiis illo est maiores. Alias est nobis ullam eum cum debitis asperiores quas facilis, nostrum, ad similique exercitationem in expedita excepturi voluptatem dolore hic aspernatur, veritatis beatae corporis ipsam molestias vel? Quos beatae impedit doloribus quia perspiciatis aspernatur, enim, nobis iure, deleniti necessitatibus vitae sed repellendus. Iste excepturi ratione distinctio voluptatibus culpa quod, dignissimos quasi quas optio iusto voluptate. Magnam sint et sit rem molestiae eaque eum laborum neque facere magni. Quas, rerum harum temporibus nesciunt reprehenderit, nulla quae amet aut suscipit est vero sequi quo, in officiis optio deserunt ut? Omnis nemo quo adipisci qui sit cumque, suscipit, obcaecati quos beatae vitae expedita est deleniti labore odit facilis. Assumenda dolor quidem sed maxime rerum quos temporibus iusto incidunt earum, nostrum dolorum, ratione suscipit quisquam exercitationem ut sint quasi est, quod aspernatur ipsa dicta reprehenderit? Autem ipsam numquam quasi rerum. Tempora, impedit assumenda officia ratione eveniet doloremque iste unde est inventore distinctio quam expedita illum itaque delectus vel maxime ut quaerat mollitia.</p>
+  </section>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  </section>
+</body>
+</html>
