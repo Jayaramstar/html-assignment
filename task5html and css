@@ -1,0 +1,52 @@
+<!--task5 html file-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Gallery with Hover Effect</title>
+  <link rel="stylesheet" href="task5.css">
+</head>
+<body>
+  <div class="gallery">
+    <div class="thumbnail">
+      <img src="path/to/image1.jpg" alt="Image 1">
+    </div>
+    <div class="thumbnail">
+      <img src="path/to/image2.jpg" alt="Image 2">
+    </div>
+    <div class="thumbnail">
+      <img src="path/to/image3.jpg" alt="Image 3">
+    </div>
+    <!-- Add more thumbnail divs with images as needed -->
+  </div>
+</body>
+</html>
+
+/*css file*/
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.thumbnail {
+  flex: 0 0 calc(33.33% - 20px); /* Three thumbnails per row with spacing */
+  margin: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease; /* Smooth transition for scaling effect */
+}
+
+.thumbnail img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.thumbnail:hover {
+  transform : scale(1.2); /* Scale up the image on hover */
+}
